@@ -85,7 +85,7 @@ a {
     padding: 30px 0;
 }
 
-.logo {
+.logo h1 {
     font-size: 25px;
     color: #000000;
 }
@@ -152,7 +152,7 @@ a {
 .slide h3:after {
     position: absolute;
     top: 90px;
-    left: 685px;
+    left: 50%; /*685px*/
     transform: translateX(-50%);
     content: '';
     width: 70px;
@@ -305,6 +305,7 @@ a {
     text-transform: uppercase;
     color: #FFFFFF;
     font-size: 30px;
+    opacity: .8;
     text-align: center;
     padding-top: 255px;
 }
@@ -332,9 +333,111 @@ a {
 }
 
 .second-row img:nth-of-type(1) {
-    margin-left: -40px;
+    margin-left: -50px;
 }
 
 .second-row img:nth-of-type(2) {
-    margin-left: -60px;
+    margin-left: -50px;
+}
+
+.our-member {
+    width: 100%;
+    height: 755px;
+    background-color: #343131;
+    margin-bottom: 120px;
+    position: relative;
+}
+
+.our-member h4 {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 30px;
+    opacity: .8;
+    text-align: center;
+    padding-top: 110px;
+}
+
+.our-member h4:after {
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: #03a9f4;
+}
+
+.our-member-container {
+    width: 1170px;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-member__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.our-member__link {
+    overflow: hidden;
+    position: relative;
+}
+
+.our-member__img {
+    width: 100%;
+}
+
+.our-member__content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #343131;
+    opacity: .9;
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.our-member__link:hover .our-member__content {
+    top: 0;
+    left: 0;
+}
+
+.our-member_hover-img {
+    margin-bottom: -260px;
+    margin-left: 20px;
+    width: 109px;
+    height: 14px;
+}
+
+.our-member_hover-title {
+    margin-left: 20px;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.our-member_hover-title h5 {
+    margin-bottom: 15px;
+}
+
+.our-member_hover-title h5:last-of-type {
+    opacity: .7;
+
+}
+
+.our-member_hover-title h5:after {
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    transform: translateX(-50%);
+    content: '';
+    width: 35px;
+    height: 3px;
+    background: #FFFFFF;
 }
