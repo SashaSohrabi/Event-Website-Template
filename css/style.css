@@ -88,6 +88,7 @@ a {
 
 .logo h1 {
     font-size: 25px;
+    letter-spacing: 1px;
     color: #000000;
 }
 
@@ -133,6 +134,7 @@ a {
 
 .slide h2 {
     font-size: 70px;
+    letter-spacing: 1px;
     font-weight: 500;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -145,6 +147,7 @@ a {
 
 .slide h3 {
     font-size: 40px;
+    letter-spacing: 1px;
     font-weight: 500;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -312,8 +315,10 @@ a {
 
 .project__video h4 {
     text-transform: uppercase;
+    letter-spacing: 2px;
     color: #FFFFFF;
     font-size: 30px;
+    font-weight: 900;
     opacity: .8;
     text-align: center;
     padding-top: 255px;
@@ -360,8 +365,10 @@ a {
 
 .our-member h4 {
     text-transform: uppercase;
+    letter-spacing: 2px;
     color: #FFFFFF;
     font-size: 30px;
+    font-weight: 900;
     opacity: .8;
     text-align: center;
     padding-top: 110px;
@@ -468,8 +475,10 @@ a {
 
 .schedule h4 {
     text-transform: uppercase;
+    letter-spacing: 2px;
     color: #000000;
     font-size: 30px;
+    font-weight: 900;
     opacity: .8;
     text-align: center;
     position: relative;
@@ -590,17 +599,118 @@ a {
     z-index: 10;
 }
 
-.next-day-button {
+.schedule__next-day-btn {
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
 }
 
-.next-day-button a {
+.schedule__next-day-btn a {
     background-color: #03a9f4;
     font-size: 13px;
     color: #FFFFFF;
     opacity: .7;
     text-transform: uppercase;
     padding: 15px 40px;
+}
+
+/* SIGNUP SECTION  */
+
+.signUp {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 115px;
+    background: url('../images/perchase-bg.png') no-repeat;
+
+}
+
+.signUp h4 {
+    color: #FFFFFF;
+    font-size: 20px;
+    letter-spacing: 2px;
+    opacity: .8;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 1.5;
+    padding: 60px 95px;
+}
+
+.signUp a {
+    color: #FFFFFF;
+    background-color: #03a9f4;
+    font-size: 13px;
+    opacity: .8;
+    text-transform: uppercase;
+    padding: 18px 40px;
+    margin: 55px 110px 70px;
+}
+
+/* OUR BLOG SECTION */
+
+.our-blog {
+    width: 100%;
+    position: relative;
+}
+
+.our-blog__body {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 100px 140px;
+}
+
+.our-blog h4 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 900;
+    opacity: .8;
+    text-align: center;
+    position: relative;
+}
+
+.our-blog h4:after {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: #03a9f4;
+}
+
+.our-blog__body figcaption img {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.our-blog__body figcaption img:first-of-type {
+    border-right: 1px solid #b4b4b4;
+    padding-right: 10px;
+}
+
+.our-blog__body figcaption img:last-of-type {
+    padding-left: 10px;
+}
+
+.our-blog__body figcaption {
+    width: 370px;
+}
+.our-blog__body figcaption h5 {
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    font-weight: 900;
+    opacity: .8;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.our-blog__body figcaption p {
+   margin-top: 15px;
+    line-height: 1.5;
+    font-size: 14px;
+    opacity: .8;
+    color: #666666;
 }
