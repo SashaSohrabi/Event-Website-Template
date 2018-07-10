@@ -50,9 +50,9 @@ table {
     border-spacing: 0;
 }
 
-/*RESET CSS END*/
+/* RESET CSS END */
 
-/* GENERAL RULES*/
+/* GENERAL RULES */
 @font-face {
     font-family: 'MyriadPro-Regular';
     src: local('MyriadPro-Regular.otf'), url('../fonts/MyriadPro-Regular.otf') format('opentype');
@@ -76,6 +76,7 @@ a {
     font-family: 'MyriadPro-Regular';
 }
 
+/* HEADER */
 .header {
     width: 1165px;
     margin: 0 auto;
@@ -99,9 +100,11 @@ a {
 .header-block__nav {
     text-transform: uppercase;
     font-size: 14px;
+    opacity: .8;
     display: flex;
     justify-content: space-around;
     width: 525px;
+    margin-left: 90px;
 }
 
 .header-block__nav a {
@@ -118,6 +121,8 @@ a {
 .header-block__search {
     padding-top: 10px;
 }
+
+/* SLIDE SECTION */
 
 .slide {
     width: 100%;
@@ -223,6 +228,8 @@ a {
     margin-bottom: 200px;
 }
 
+/* ABOUT SECTION */
+
 .about {
     width: 90%;
     position: relative;
@@ -262,6 +269,8 @@ a {
     margin-bottom: 30px;
     line-height: 1.6;
 }
+
+/* PROJECT SECTION */
 
 .project {
     margin-top: 155px;
@@ -340,11 +349,12 @@ a {
     margin-left: -50px;
 }
 
+/* OUR MEMBER*/
+
 .our-member {
     width: 100%;
     height: 755px;
     background-color: #343131;
-    margin-bottom: 120px;
     position: relative;
 }
 
@@ -440,4 +450,157 @@ a {
     width: 35px;
     height: 3px;
     background: #FFFFFF;
+}
+
+/* SCHEDULE SECTION */
+
+.schedule {
+    width: 100%;
+    position: relative;
+    background-color: #f8f8f8;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.schedule__header {
+    width: 100%;
+}
+
+.schedule h4 {
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 30px;
+    opacity: .8;
+    text-align: center;
+    position: relative;
+}
+
+.schedule h4:after {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: #03a9f4;
+}
+
+.schedule .day-button {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.schedule .schedule__photo-centered img:first-of-type {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25%;
+}
+
+.schedule .schedule__photo-centered img:nth-of-type(2) {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+}
+
+.schedule .schedule__photo-centered img:last-of-type {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 73%;
+}
+
+.day-button a {
+    padding: 15px 30px;
+    border: 1px solid #eaeaea;
+    margin-top: 85px;
+    transition: background-color .3s;
+}
+
+.day-button a:hover {
+    background-color: #03a9f4;
+}
+
+.schedule__body {
+    display: flex;
+    justify-content: center;
+}
+
+.schedule__body h5 {
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 1.5;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.schedule__body p {
+    font-size: 14px;
+    line-height: 1.7;
+    opacity: .7;
+}
+
+.schedule__body figure {
+    width: 460px;
+}
+
+.col-one-of-two {
+    width: 50%;
+    height: 1560px;
+    border-right: 3px solid #eaeaea;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.col-one-of-two figure {
+    margin: 100px auto;
+    position: relative;
+}
+
+.col-one-of-two figure img:first-child {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    z-index: 10;
+}
+
+.col-two-of-two {
+    width: 50%;
+    height: 1560px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.col-two-of-two figure {
+    margin: 100px auto;
+    position: relative;
+}
+
+.col-two-of-two figure img:first-child {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    z-index: 10;
+}
+
+.next-day-button {
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.next-day-button a {
+    background-color: #03a9f4;
+    font-size: 13px;
+    color: #FFFFFF;
+    opacity: .7;
+    text-transform: uppercase;
+    padding: 15px 40px;
 }
