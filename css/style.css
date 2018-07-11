@@ -698,6 +698,7 @@ a {
 .our-blog__body figcaption {
     width: 370px;
 }
+
 .our-blog__body figcaption h5 {
     text-transform: uppercase;
     padding-bottom: 15px;
@@ -713,3 +714,102 @@ a {
     opacity: .8;
     color: #666666;
 }
+
+/* BOOK A SEAT */
+
+.book-a-seat {
+    width: 100%;
+}
+
+.book-a-seat__img {
+    float: left;
+}
+
+.book-a-seat__form {
+    background-color: #f8f8f8;
+    padding: 120px 100px 120px 700px;
+}
+
+.book-a-seat__form h4 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 900;
+    opacity: .8;
+    text-align: left;
+    position: relative;
+}
+
+.book-a-seat__form h4:after {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: #03a9f4;
+}
+
+.book-a-seat__form p {
+    margin-top: 50px;
+    line-height: 1.5;
+    font-size: 14px;
+    opacity: .8;
+    color: #666666;
+    box-sizing: border-box;
+}
+
+.book-a-seat form {
+    margin-top: 30px;
+}
+
+.book-a-seat__form .one-line-inputs {
+    width: 580px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-a-seat__form .one-line-inputs input[name=email] {
+    margin-left: 30px;
+}
+
+.book-a-seat__form input[type=text], textarea {
+    width: 550px;
+    margin-top: 25px;
+    border: none;
+}
+
+.book-a-seat__form input[placeholder] {
+    padding: 15px 15px;
+    font-size: 12px;
+     opacity: .9;
+
+}
+
+.book-a-seat__form textarea {
+    height: 160px;
+}
+
+.book-a-seat__form textarea[placeholder] {
+    padding: 15px 15px;
+}
+
+.book-a-seat__form input[type="submit"] {
+    margin-top: 25px;
+    background-color: #03a9f4;
+    font-size: 13px;
+    color: #FFFFFF;
+    border: none;
+    padding: 15px 40px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
