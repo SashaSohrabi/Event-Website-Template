@@ -897,14 +897,17 @@ a {
     height: 40px;
 }
 
-.col-four input[type=submit] {
+.col-four a {
     background-color: #29cadf;
     border: none;
-    width: 42px;
-    height: 42px;
+    padding: 12px;
     margin-left: -8px;
+    transition: background-color .3s;
 }
 
+.col-four a:hover {
+    background-color: #0a97a9;
+}
 .col-four input::placeholder {
     color: #cccccc;
     padding: 15px;
