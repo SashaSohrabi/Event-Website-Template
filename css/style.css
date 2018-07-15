@@ -28,7 +28,6 @@ footer, header, hgroup, menu, nav, section {
 
 body {
     line-height: 1;
-
 }
 
 ol, ul {
@@ -59,7 +58,9 @@ table {
 }
 
 html {
-    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'MyriadPro-Regular';
 }
 
 a {
@@ -69,20 +70,12 @@ a {
     cursor: pointer;
 }
 
-.main {
-    width: 1370px;
-    margin: 0 auto;
-    background: white;
-    font-family: 'MyriadPro-Regular';
-}
-
 /* HEADER */
 .header {
-    width: 1165px;
+    width: 85%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 30px 0;
 }
 
@@ -95,7 +88,6 @@ a {
 .header-block {
     display: flex;
     justify-content: space-between;
-    width: 660px;
 }
 
 .header-block__nav {
@@ -103,9 +95,7 @@ a {
     font-size: 14px;
     opacity: .8;
     display: flex;
-    justify-content: space-around;
-    width: 525px;
-    margin-left: 90px;
+    justify-content: space-between;
 }
 
 .header-block__nav a {
@@ -160,7 +150,7 @@ a {
 .slide h3:after {
     position: absolute;
     top: 90px;
-    left: 50%; /*685px*/
+    left: 50%;
     transform: translateX(-50%);
     content: '';
     width: 70px;
@@ -187,11 +177,15 @@ a {
     margin-bottom: 60px;
 }
 
+.counter2 ul {
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
 .counter2 ul li {
     display: inline;
     text-transform: uppercase;
-    position: relative;
-    left: 30.5%;
     color: #FFFFFF;
     font-size: 14px;
     font-weight: 200;
@@ -234,7 +228,7 @@ a {
 /* ABOUT SECTION */
 
 .about {
-    width: 90%;
+    width: 1233px;
     position: relative;
     margin: 100px auto;
 
@@ -281,7 +275,7 @@ a {
 }
 
 .project__statistics {
-    width: 1100px;
+    width: 1080px;
     margin: 60px auto;
     padding-top: 80px;
     display: flex;
@@ -305,11 +299,11 @@ a {
 }
 
 .project__video {
-    width: 100%;
+    width: 1170px;
+    margin: 0 auto;
     height: 700px;
-    background: url('../images/project-bg.png') no-repeat #000000;
     background-size: 100%;
-    background-position: 100% 60%;
+    background: #000000 url('../images/project-bg.png') no-repeat 100% 60%;
     position: relative;
 }
 
@@ -335,6 +329,8 @@ a {
 }
 
 .project__brands {
+    width: 1170px;
+    margin: 0 auto;
     padding-bottom: 150px;
 }
 
@@ -389,7 +385,7 @@ a {
     width: 1170px;
     margin: 90px auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .our-member__list {
@@ -534,6 +530,8 @@ a {
 }
 
 .schedule__body {
+    width: 1370px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
 }
@@ -617,12 +615,15 @@ a {
 /* SIGNUP SECTION  */
 
 .signUp {
-    width: 100%;
+    background: url('../images/perchase-bg.png') no-repeat;
+    background-size: 100% 90%;
+}
+
+.signUp__content {
+    width: 1370px;
+    margin: 0 auto 115px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 115px;
-    background: url('../images/perchase-bg.png') no-repeat;
-
 }
 
 .signUp h4 {
@@ -654,9 +655,10 @@ a {
 }
 
 .our-blog__body {
+    width: 1170px;
     display: flex;
     justify-content: space-between;
-    margin: 80px 100px 140px;
+    margin: 80px auto 140px;
 }
 
 .our-blog h4 {
@@ -718,7 +720,12 @@ a {
 /* BOOK A SEAT */
 
 .book-a-seat {
-    width: 100%;
+    background-color: #f8f8f8;
+}
+
+.book-a-seat__container {
+    margin: 0 auto;
+    width: 1370px;
 }
 
 .book-a-seat__img {
@@ -808,6 +815,12 @@ a {
     border: none;
     padding: 15px 40px;
     text-transform: uppercase;
+}
+
+.map {
+    width: 1370px;
+    margin: -25px auto 2px;]
+
 }
 
 /* FOOTER */
@@ -908,6 +921,7 @@ a {
 .col-four a:hover {
     background-color: #0a97a9;
 }
+
 .col-four input::placeholder {
     color: #cccccc;
     padding: 15px;
