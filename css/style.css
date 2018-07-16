@@ -57,9 +57,11 @@ table {
     src: local('MyriadPro-Regular.otf'), url('../fonts/MyriadPro-Regular.otf') format('opentype');
 }
 
-html {
+body {
     width: 100%;
     margin: 0 auto;
+    left: 0;
+    right: 0;
     font-family: 'MyriadPro-Regular';
 }
 
@@ -818,7 +820,7 @@ a {
 }
 
 .map {
-    width: 1370px;
+    width: 100%;
     margin: -25px auto 2px;]
 
 }
