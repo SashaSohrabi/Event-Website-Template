@@ -954,3 +954,138 @@ a {
     background-image: linear-gradient(to bottom, #333333, #262626);
 }
 
+@media (min-width: 481px) and (max-width:768px) {
+    .logo h1 {
+        font-size: 18px;
+    }
+
+    .header-block__nav {
+        font-size: 12px;
+    }
+
+    .counter2 ul li {
+        font-size: 12px;
+    }
+
+    .counter2 ul {
+        width: 100%;
+        margin-left: 110px;
+    }
+
+    .slide {
+        background-size: 100% 100%;
+    }
+
+    .btn a {
+        margin-bottom: 80px;
+    }
+
+    .about {
+        width: 750px;
+        margin: 20px;
+    }
+
+    .project__statistics {
+        width: 720px;
+    }
+
+    .project__video {
+        width: 720px;
+        height: 600px;
+        background: #000000 url('../images/project-bg.png') no-repeat 80% 60%;
+    }
+
+    .project__video h4 {
+        padding-top: 200px;
+    }
+
+    .project__brands {
+        width: 720px;
+    }
+
+    .our-member {
+        height: 100%;
+    }
+
+    .our-member-container {
+        width: 750px;
+        margin: 90px auto;
+        flex-flow: column;
+        justify-content: space-around;
+    }
+
+    .our-member__link {
+        margin-top: 20px;
+    }
+
+    .schedule__body {
+        width: 720px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        position: relative;
+    }
+
+    .schedule__body figure {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .col-one-of-two {
+        height: 100%;
+    }
+    .schedule__body .col-one-of-two figure:first-of-type {
+        top: 0;
+    }
+
+    .schedule__body .col-one-of-two figure:last-of-type {
+        top: 60%;
+    }
+
+    .schedule__body .col-two-of-two figure {
+        top: 30%;
+    }
+
+    .our-blog__body {
+        flex-flow: column;
+        margin: 50px 25%;
+    }
+
+    .our-blog__body figure {
+        margin-bottom: 30px;
+    }
+
+    .book-a-seat__img {
+        margin-left: 35px;
+    }
+
+    .book-a-seat__form {
+        margin-left: -50%;
+        width: 720px;
+        clear: both;
+    }
+
+    .footer {
+        width: 750px;
+    }
+
+    .footer__body {
+
+        margin-left: -80px;
+    }
+
+    .footer .col-one {
+        width: 250px;
+    }
+
+    .footer__body .col-one, .col-two , .col-three, .col-four {
+        margin-right: 20px;
+    }
+
+    .footer .col-four input {
+        width: 100px;
+    }
+
+}
