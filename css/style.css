@@ -461,10 +461,15 @@ a {
 
 .schedule {
     width: 100%;
-    position: relative;
     background-color: #f8f8f8;
     padding-top: 120px;
     padding-bottom: 145px;
+}
+
+.wrapper {
+    position: relative;
+    width: 1370px;
+    margin: 0 auto;
 }
 
 .schedule__header {
@@ -503,7 +508,7 @@ a {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 25%;
+    top: 23%;
 }
 
 .schedule .schedule__photo-centered img:nth-of-type(2) {
@@ -517,7 +522,7 @@ a {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 71%;
+    top: 75%;
 }
 
 .day-button a {
@@ -1018,8 +1023,12 @@ a {
         margin-top: 20px;
     }
 
-    .schedule__body {
+    .wrapper {
         width: 720px;
+    }
+
+    .schedule__body {
+        width: 620px;
         margin: 0 auto;
         display: flex;
         flex-flow: column;
