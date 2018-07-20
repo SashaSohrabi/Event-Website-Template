@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
+    <script src="script/app.js"></script>
     <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -17,7 +18,7 @@
 </head>
 <body>
 <header class="header">
-    <a href="#" class="logo"><h1>SHB EVENT</h1></a>
+    <a href="#" class="logo"><h1>SHB</h1></a>
     <div class="header-block">
         <nav class="header-block__nav">
             <a href="#">home</a>
@@ -36,36 +37,49 @@
 <section class="slide">
     <h2>start your project</h2>
     <h3 class="bottom-line">conference event day 2017</h3>
-    <div class="counter">29<span>:</span>02<span>:</span>16<span>:</span>50</div>
-    <div class="counter2">
-        <ul>
-            <li>days</li>
-            <li>hours</li>
-            <li>mins</li>
-            <li>secs</li>
-        </ul>
-    </div>
+    <table>
+        <tbody>
+        <tr>
+            <td id="days"></td>
+            <td>:</td>
+            <td id="hours"></td>
+            <td>:</td>
+            <td id="mins"></td>
+            <td>:</td>
+            <td id="secs"></td>
+        </tr>
+        <tr>
+            <td>days</td>
+            <td></td>
+            <td>hours</td>
+            <td></td>
+            <td>mins</td>
+            <td></td>
+            <td>secs</td>
+        </tr>
+        </tbody>
+    </table>
     <div class="btn">
         <a href="#">take a tour</a>
         <a href="#">purchase</a>
     </div>
 </section>
 <section class="about">
-   <article>
-    <img src="images/about-figure.png" alt="about-figure" width="300" height="540">
-    <h4>about our project</h4>
-    <p>We are here to make your dream comes true by your own way.</p>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-        laoreet
-        dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
-        suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit
-        in
-        vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
-        accumsan et iusto odio dignissim augue.</p>
-    <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam
-        littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis seacula quarta
-        decima decima sollemnes in futurum.</p>
-   </article>
+    <article>
+        <img src="images/about-figure.png" alt="about-figure" width="300" height="540">
+        <h4>about our project</h4>
+        <p>We are here to make your dream comes true by your own way.</p>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+            laoreet
+            dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+            suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit
+            in
+            vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
+            accumsan et iusto odio dignissim augue.</p>
+        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam
+            littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis seacula quarta
+            decima decima sollemnes in futurum.</p>
+    </article>
 </section>
 <section class="project">
     <div class="project__statistics">
@@ -273,7 +287,12 @@
         </div>
     </div>
     <div class="map">
-        <img class="map" src="images/map.png" alt="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233668.38704068368!2d90.27923759348442!3d23.78057
+            3255945487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2z0JTQs
+            NC60LrQsCwg0JHQsNC90LPQu9Cw0LTQtdGI!5e0!3m2!1sru!2sua!4v1531734176284"
+            frameborder="0">
+        </iframe>
     </div>
 </section>
 <footer class="footer">

@@ -57,6 +57,10 @@ table {
     src: local('MyriadPro-Regular.otf'), url('../fonts/MyriadPro-Regular.otf') format('opentype');
 }
 
+html {
+    width: 100vw;
+}
+
 body {
     width: 100%;
     margin: 0 auto;
@@ -161,38 +165,26 @@ a {
     background: #03a9f4;
 }
 
-.counter {
+table {
+    text-transform: uppercase;
     font-size: 60px;
     font-weight: 500;
-    text-transform: uppercase;
     color: #FFFFFF;
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
-.counter span {
-    margin-left: 30px;
-    margin-right: 30px;
+table td {
+    width: 60px;
+    padding: 5px;
 }
 
-.counter2 {
-    margin-bottom: 60px;
-}
-
-.counter2 ul {
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
-}
-
-.counter2 ul li {
-    display: inline;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    font-size: 14px;
-    font-weight: 200;
-    padding: 0 48px;
+table tr:last-of-type {
+    font-size: 12px;
+    font-weight: 100;
+    opacity: .8;
 }
 
 .btn {
@@ -733,7 +725,7 @@ a {
 
 .book-a-seat__container {
     margin: 0 auto;
-    width: 1370px;
+    width: 100%;
 }
 
 .book-a-seat__img {
@@ -741,6 +733,7 @@ a {
 }
 
 .book-a-seat__form {
+    width: 570px;
     background-color: #f8f8f8;
     padding: 110px 100px 120px 700px;
 }
@@ -825,9 +818,11 @@ a {
     text-transform: uppercase;
 }
 
-.map {
+.map iframe {
     width: 100%;
-    margin: -25px auto 2px;]
+    height: 500px;
+    margin: -25px auto 2px;
+]
 
 }
 
@@ -960,7 +955,7 @@ a {
     background-image: linear-gradient(to bottom, #333333, #262626);
 }
 
-@media (min-width: 481px) and (max-width:768px) {
+@media (min-width: 481px) and (max-width: 768px) {
     .logo h1 {
         font-size: 18px;
     }
@@ -1046,6 +1041,7 @@ a {
     .col-one-of-two {
         height: 100%;
     }
+
     .schedule__body .col-one-of-two figure:first-of-type {
         top: 0;
     }
@@ -1072,13 +1068,13 @@ a {
     }
 
     .book-a-seat__form {
-        margin-left: -50%;
-        width: 720px;
+        margin-left: -80%;
+        width: 500px;
         clear: both;
     }
 
     .footer {
-        width: 750px;
+        width: 765px;
     }
 
     .footer__body {
@@ -1090,7 +1086,7 @@ a {
         width: 250px;
     }
 
-    .footer__body .col-one, .col-two , .col-three, .col-four {
+    .footer__body .col-one, .col-two, .col-three, .col-four {
         margin-right: 20px;
     }
 
