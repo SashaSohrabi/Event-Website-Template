@@ -1,2 +1,2 @@
-[demo](https://sashasohrabi.github.io/Event-Website-Template/)
+[click here](https://sashasohrabi.github.io/Event-Website-Template/)
 
