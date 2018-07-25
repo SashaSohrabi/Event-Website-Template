@@ -217,7 +217,6 @@ table tr:last-of-type {
     border: #03a9f4;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 200px;
 }
 
 /* ABOUT SECTION */
@@ -885,6 +884,10 @@ table tr:last-of-type {
     letter-spacing: .7px;
 }
 
+.footer__body a {
+    color: #FFFFFF;
+}
+
 .footer__body .col-one {
     width: 355px;
 }
@@ -976,6 +979,11 @@ table tr:last-of-type {
     font-size: 14px;
     opacity: .8;
     margin: 0 12px;
+    transition: color .3s;
+}
+
+.footer__right-reserved i:hover {
+    color: #29cadf;
 }
 
 .empty {
@@ -984,6 +992,8 @@ table tr:last-of-type {
     height: 10px;
     background-image: linear-gradient(to bottom, #333333, #262626);
 }
+
+
 
 @media (min-width: 481px) and (max-width: 768px) {
     .logo h1 {
