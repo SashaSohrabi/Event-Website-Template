@@ -935,15 +935,16 @@ table tr:last-of-type {
     height: 40px;
 }
 
-.col-four a {
+.col-four button {
     background-color: #29cadf;
     border: none;
-    padding: 12px;
+    padding: 14px;
     margin-left: -8px;
     transition: background-color .3s;
+    color: #FFFFFF;
 }
 
-.col-four a:hover {
+.col-four button:hover {
     background-color: #0a97a9;
 }
 
