@@ -424,10 +424,16 @@ table tr:last-of-type {
 }
 
 .our-member_hover-img i {
-    color: white;
+    color: #FFFFFF;
     font-size: 14px;
     opacity: .8;
-    margin-right: 12px;
+    padding-right: 12px;
+    transition: color .3s;
+}
+
+
+.our-member_hover-img i:hover {
+    color: #29cadf;
 }
 
 .our-member_hover-img i:first-child {
