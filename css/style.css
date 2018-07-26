@@ -124,7 +124,6 @@ a {
     display: none;
 }
 
-
 /* SLIDE SECTION */
 
 .slide {
@@ -435,7 +434,6 @@ table tr:last-of-type {
     transition: color .3s;
 }
 
-
 .our-member_hover-img i:hover {
     color: #29cadf;
 }
@@ -447,7 +445,6 @@ table tr:last-of-type {
 .our-member_hover-img i:last-child {
     margin-right: 0;
 }
-
 
 .our-member_hover-title {
     margin-left: 20px;
@@ -1004,13 +1001,12 @@ table tr:last-of-type {
 
 }
 
-
 @media only screen and (max-width: 992px) {
 
 }
 
-
 @media only screen and (max-width: 768px) {
+
     .logo h1 {
         font-size: 18px;
     }
@@ -1029,6 +1025,7 @@ table tr:last-of-type {
     }
 
     .slide {
+        width: 100%;
         background-size: 100% 100%;
     }
 
@@ -1037,16 +1034,16 @@ table tr:last-of-type {
     }
 
     .about {
-        width: 750px;
-        margin: 20px;
+        width: 90%;
+        margin: 20px auto;
     }
 
     .project__statistics {
-        width: 720px;
+        width: 90%;
     }
 
     .project__video {
-        width: 720px;
+        width: 90%;
         height: 600px;
         background: #000000 url('../images/project-bg.png') no-repeat 80% 60%;
     }
@@ -1056,7 +1053,7 @@ table tr:last-of-type {
     }
 
     .project__brands {
-        width: 720px;
+        width: 75%;
     }
 
     .our-member {
@@ -1064,7 +1061,7 @@ table tr:last-of-type {
     }
 
     .our-member-container {
-        width: 750px;
+        width: 100%;
         margin: 90px auto;
         flex-flow: column;
         justify-content: space-around;
@@ -1079,7 +1076,7 @@ table tr:last-of-type {
     }
 
     .schedule__body {
-        width: 620px;
+        width: 90%;
         margin: 0 auto;
         display: flex;
         flex-flow: column;
@@ -1110,7 +1107,7 @@ table tr:last-of-type {
     }
 
     .signUp__content {
-        width: 750px;
+        width: 100%;
         margin: 0 auto 115px;
         display: flex;
         justify-content: space-between;
@@ -1135,8 +1132,6 @@ table tr:last-of-type {
         margin-bottom: 60px;
     }
 
-
-
     .our-blog__body {
         flex-flow: column;
         margin: 50px 25%;
@@ -1147,26 +1142,22 @@ table tr:last-of-type {
     }
 
     .book-a-seat__img {
-        margin-left: 35px;
+        width: 100%;
+        margin: 0 auto;
     }
 
     .book-a-seat__form {
         margin-left: -80%;
-        width: 500px;
+        width: 70%;
         clear: both;
     }
 
     .footer {
-        width: 765px;
-    }
-
-    .footer__body {
-
-        margin-left: -80px;
+        width: 100%;
     }
 
     .footer .col-one {
-        width: 250px;
+        width: 40%;
     }
 
     .footer__body .col-one, .col-two, .col-three, .col-four {
@@ -1174,10 +1165,9 @@ table tr:last-of-type {
     }
 
     .footer .col-four input {
-        width: 100px;
+        width: 60%;
     }
 }
-
 
 @media only screen and (max-width: 576px) {
 
