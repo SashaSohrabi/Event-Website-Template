@@ -120,6 +120,11 @@ a {
     margin-left: 15px;
 }
 
+.header-block__search i {
+    display: none;
+}
+
+
 /* SLIDE SECTION */
 
 .slide {
@@ -993,9 +998,19 @@ table tr:last-of-type {
     background-image: linear-gradient(to bottom, #333333, #262626);
 }
 
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 1200px) {
+
+}
 
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
+
+}
+
+
+@media only screen and (max-width: 768px) {
     .logo h1 {
         font-size: 18px;
     }
@@ -1161,5 +1176,10 @@ table tr:last-of-type {
     .footer .col-four input {
         width: 100px;
     }
+}
+
+
+@media only screen and (max-width: 576px) {
 
 }
+
