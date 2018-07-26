@@ -1002,13 +1002,8 @@ table tr:last-of-type {
 }
 
 @media only screen and (max-width: 992px) {
-
-}
-
-@media only screen and (max-width: 768px) {
-
     .logo h1 {
-        font-size: 18px;
+        font-size: 25px;
     }
 
     .header-block__nav {
@@ -1072,7 +1067,7 @@ table tr:last-of-type {
     }
 
     .wrapper {
-        width: 720px;
+        width: 80%;
     }
 
     .schedule__body {
@@ -1134,7 +1129,9 @@ table tr:last-of-type {
 
     .our-blog__body {
         flex-flow: column;
-        margin: 50px 25%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-16%);
     }
 
     .our-blog__body figure {
@@ -1147,8 +1144,8 @@ table tr:last-of-type {
     }
 
     .book-a-seat__form {
-        margin-left: -80%;
-        width: 70%;
+        margin-left: -70%;
+        width: 50%;
         clear: both;
     }
 
@@ -1169,7 +1166,234 @@ table tr:last-of-type {
     }
 }
 
+@media only screen and (max-width: 768px) {
+
+    .logo h1 {
+        font-size: 18px;
+    }
+
+    .slide h2 {
+        font-size: 60px;
+    }
+
+    .slide h3 {
+        font-size: 30px;
+    }
+
+    .about h4 {
+        font-size: 20px;
+    }
+
+    .about img[alt="about-figure"] {
+        display: none;
+    }
+
+    .about article p {
+        width: 100%;
+    }
+
+    .book-a-seat__form {
+        margin-left: -90%;
+    }
+
+    .footer {
+        width: 100%;
+        height: 100%;
+        text-align: left;
+    }
+
+    .footer__body {
+        display: block;
+        height: 100%;
+    }
+
+    .col-one, .col-two, .col-three, .col-four {
+        margin-bottom: 30px;
+        width: 400px;
+    }
+
+    .col-one p, h6 {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .col-four p {
+        width: 400px;
+        margin: 0 auto 20px;
+    }
+
+    .footer__right-reserved {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer__right-reserved p {
+        margin-bottom: 10px;
+    }
+
+}
+
 @media only screen and (max-width: 576px) {
+    .header-block__nav, .header-block__search a {
+        display: none;
+    }
+
+    .header-block__search i {
+        display: inline;
+    }
+
+    .slide {
+        height: 100vh;
+    }
+
+    .slide h2 {
+        font-size: 40px;
+        line-height: 80px;
+    }
+
+    .slide h3 {
+        margin-top: 40px;
+        font-size: 20px;
+    }
+
+    .about {
+        margin-bottom: -50px;
+    }
+
+    .project__statistics img {
+        width: 50px;
+    }
+
+    .project__statistics p {
+        font-size: 10px;
+    }
+
+    .project__video {
+        height: 300px;
+    }
+
+    .project__brands img {
+        width: 80px;
+    }
+
+    .project__brands .first-row, .second-row {
+        margin-top: 80px;
+
+    }
+
+    .project__brands .second-row img:nth-of-type(1) {
+        margin-left: -10px;
+    }
+
+    .project__brands .second-row img:nth-of-type(2) {
+        margin-left: -5px;
+    }
+
+    .project__brands .second-row img:nth-of-type(3) {
+        margin-right: -10px;
+    }
+
+    .schedule a {
+        font-size: 12px;
+    }
+
+    .schedule figcaption h5, p {
+        width: 80%;
+        margin: 10px auto 20px;
+    }
+
+    .col-one-of-two figure img:first-child {
+        top: 0;
+        left: 0;
+    }
+
+    .col-two-of-two figure img:first-child {
+        top: 0;
+        right: 0;
+    }
+
+    .schedule__next-day-btn a {
+        font-size: 12px;
+        padding: 15px 30px;
+    }
+
+    .signUp__content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .signUp h4 {
+        font-size: 15px;
+        padding: 20px 20px;
+    }
+
+    .signUp .signUp__content a {
+        font-size: 10px;
+        margin: 10px 110px 40px;
+        text-align: center;
+    }
+
+    .our-blog__body {
+        margin-bottom: 0;
+    }
+
+    .book-a-seat__img {
+        height: 400px;
+    }
+
+    .book-a-seat__form {
+        width: 400px;
+        margin-left: -180%;
+    }
+
+    .book-a-seat__form form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .book-a-seat__form .one-line-inputs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .book-a-seat__form input[type="submit"] {
+        width: 200px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 100%;
+        text-align: left;
+    }
+
+    .footer__body {
+        display: block;
+        height: 100%;
+    }
+
+    .col-one, .col-two, .col-three, .col-four {
+        margin-bottom: 30px;
+        width: 200px;
+    }
+
+    .col-one p, h6 {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .col-four p, h6 {
+        width: 200px;
+        margin: 0 auto 20px;
+    }
+
+    .footer__right-reserved {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 
 }
 
